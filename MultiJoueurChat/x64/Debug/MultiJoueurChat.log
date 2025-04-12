@@ -1,2 +1,6 @@
-﻿  MultiJoueurChat.cpp
-  MultiJoueurChat.vcxproj -> C:\Users\lucas\source\repos\MultiJoueurChat\x64\Debug\MultiJoueurChat.exe
+﻿  Server.cpp
+  UDPSocket.cpp
+C:\Users\lucas\Documents\GitHub\EntrainementMultijoueur\MultiJoueurChat\UDPSocket.cpp(38,37): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\lucas\Documents\GitHub\EntrainementMultijoueur\MultiJoueurChat\UDPSocket.cpp(47,45): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+  Génération de code en cours...
+  MultiJoueurChat.vcxproj -> C:\Users\lucas\Documents\GitHub\EntrainementMultijoueur\x64\Debug\MultiJoueurChat.exe
