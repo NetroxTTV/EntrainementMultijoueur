@@ -15,20 +15,19 @@ void ReceiveDataThread(UDPSocket& udpSocket) {
     while (true) {
         int bytesReceived = udpSocket.ReceiveData(buffer, sizeof(buffer), senderAddr);
         if (bytesReceived > 0) {
+            if (bytesReceived >= sizeof(buffer))
+                bytesReceived = sizeof(buffer) - 1;
             buffer[bytesReceived] = '\0';
-
-            char senderIp[INET_ADDRSTRLEN];
-            inet_ntop(AF_INET, &senderAddr.sin_addr, senderIp, sizeof(senderIp));
 
             std::istringstream iss(buffer);
             std::string name, chatMsg;
 
-            chatMsg = " " + chatMsg;
-            
-            iss >> name >> chatMsg;
+            iss >> name;
+            std::getline(iss, chatMsg);
+            if (!chatMsg.empty() && chatMsg[0] == ' ') chatMsg.erase(0, 1);
 
-            std::cout << name << " " << chatMsg << std::endl;   
-            
+            std::cout << name << " " << chatMsg << std::endl;
+
             std::ostringstream oss;
             oss << name << " : " << chatMsg;
             std::string modifiedData = oss.str();

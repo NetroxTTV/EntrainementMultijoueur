@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{88A2649D-00B6-4E32-9DCE-B8C574E52183}|MultiJoueurChat\\MultiJoueurChat.vcxproj|solutionrelative:MultiJoueurChat\\Server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{617890BA-9E30-455D-8F63-EAE0485E03CC}|Client\\Client.vcxproj|C:\\Users\\lucas\\Documents\\GitHub\\EntrainementMultijoueur\\Client\\UDPSocket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{617890BA-9E30-455D-8F63-EAE0485E03CC}|Client\\Client.vcxproj|solutionrelative:Client\\UDPSocket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{617890BA-9E30-455D-8F63-EAE0485E03CC}|Client\\Client.vcxproj|C:\\Users\\lucas\\Documents\\GitHub\\EntrainementMultijoueur\\Client\\Client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{617890BA-9E30-455D-8F63-EAE0485E03CC}|Client\\Client.vcxproj|solutionrelative:Client\\Client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -22,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "server.h",
               "DocumentMoniker": "C:\\Users\\lucas\\Documents\\GitHub\\EntrainementMultijoueur\\MultiJoueurChat\\server.h",
               "RelativeDocumentMoniker": "MultiJoueurChat\\server.h",
@@ -40,12 +44,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UDPSocket.h",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\GitHub\\EntrainementMultijoueur\\Client\\UDPSocket.h",
+              "RelativeDocumentMoniker": "Client\\UDPSocket.h",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\GitHub\\EntrainementMultijoueur\\Client\\UDPSocket.h",
+              "RelativeToolTip": "Client\\UDPSocket.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-13T22:40:58.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Client.cpp",
               "DocumentMoniker": "C:\\Users\\lucas\\Documents\\GitHub\\EntrainementMultijoueur\\Client\\Client.cpp",
               "RelativeDocumentMoniker": "Client\\Client.cpp",
               "ToolTip": "C:\\Users\\lucas\\Documents\\GitHub\\EntrainementMultijoueur\\Client\\Client.cpp",
               "RelativeToolTip": "Client\\Client.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-13T22:23:32.462Z",
               "EditorCaption": ""
@@ -58,7 +75,7 @@
               "RelativeDocumentMoniker": "MultiJoueurChat\\Server.cpp",
               "ToolTip": "C:\\Users\\lucas\\Documents\\GitHub\\EntrainementMultijoueur\\MultiJoueurChat\\Server.cpp",
               "RelativeToolTip": "MultiJoueurChat\\Server.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-13T22:21:17.089Z",
               "EditorCaption": ""
